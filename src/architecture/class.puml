@@ -1,0 +1,51 @@
+@startuml
+
+class User {
+
+    name: String
+    email: String
+
+}
+
+class Credit {
+
+    amount: Number 
+    interest: Number 
+    duration: Number 
+
+}
+
+
+
+class PersonalFinanceCredit extends Credit {
+
+    const BSMV = 0.1
+    const KKDF = 0.15
+
+    //Repayment plan
+    calculateMonthlyPayment(): void
+    calculateWeeklyPayment(): void
+    calculateDailyPayment(): void
+    calculateTotalPayment(): void
+    calculateInterest(): void
+
+
+    
+    calculateRemainingInterest(): void
+    calculateBSMV() : void
+    calculateKKDF() : void
+
+
+    calculateRemaningMonthlyPrincipalPayment(): void
+    calculateRemaningPrincipalPayment(): void
+
+}
+
+!function paymentTable() {
+
+    User --> Credit
+    Credit --> PersonalFinanceCredit
+
+}()
+
+@enduml
