@@ -10,8 +10,6 @@ This is a simple program that calculates the repayment table for a loan. It take
 
 * Number of month, year and week
 
-* Interest rate
-
 * Tax rate
 
 The program then calculates the repayment table and outputs it to pop-up modal.
@@ -49,6 +47,6 @@ Enjoy!
 
 ## Author
 
-* **Mustafa Polat** - [Github](github.com/polat-mustafa) - [LinkedIn](https://www.linkedin.com/in/polat-mustafa/)
+* **Mustafa Polat** [LinkedIn](https://www.linkedin.com/in/polat-mustafa/)
 
 
